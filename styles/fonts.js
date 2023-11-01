@@ -25,6 +25,8 @@ const urban = localFont({
   ],
 });
 
-const grotesk = localFont({ src: '/fonts/OldschoolGroteskVarTrial.ttf' });
+const oldSchool = localFont({
+  src: './fonts/OldschoolGroteskVarTrial.ttf',
+});
 
-export { grotesk, urban };
+export { oldSchool, urban };
