@@ -9,7 +9,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem 12rem 1rem;
 }
 
 .header__h1 {
