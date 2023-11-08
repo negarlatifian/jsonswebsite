@@ -2,13 +2,21 @@
 
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
+import { useState } from 'react';
 import './Body.css';
 import { urban } from '@/fonts';
 import { oldSchool } from '@/fonts';
 
 const Video = dynamic(() => import('./VideoPlayer.js'));
-
 const Body = () => {
+  const [hovered, setHovered] = useState(false);
+
+  const handleHoverIn = () => {
+    setHovered(true);
+  };
+  const handleHoverOut = () => {
+    setHovered(false);
+  };
   return (
     <section className={`${urban.className} body__container`}>
       <div className='video__container'>
@@ -39,7 +47,12 @@ const Body = () => {
             </p>
           </li>
           <li className='bio__ul__li'>
-            <Link href='https://www.corahillebrand.se/' className='bio__link'>
+            <Link
+              href='https://www.corahillebrand.se/'
+              className={`bio__link ${hovered && 'bio__link--hovered'}`}
+              onMouseOver={handleHoverIn}
+              onMouseLeave={handleHoverOut}
+            >
               <ul className='bio__link__ul'>
                 <li className='bio__ul__li'>
                   <h2 className={`${oldSchool.className} bio__h2`}>

@@ -63,6 +63,11 @@
   text-decoration: none;
   list-style: none;
 }
+
+.bio__link--hovered .bio__h2,
+.bio__link--hovered .bio__p {
+  color: #ff0099;
+}
 .video__iframe {
-  pointer-events: none;
+  /* pointer-events: none; */
 }
