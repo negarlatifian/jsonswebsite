@@ -8,18 +8,30 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .header__h1 {
   color: #ffffff;
   font-style: heavy;
   font-weight: 900;
-  font-size: 4.5rem;
+  font-size: 4.4rem;
+  margin: 0rem 0rem 1.5rem;
+}
+
+.header__h1__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.header__h1__link:hover {
+  color: #ff0099;
 }
 
 .header__mailImg {
   width: 4rem;
+}
+.header__mailImg:hover {
+  color: #ff0099;
 }
 
 /* @tailwind base;

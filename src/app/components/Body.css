@@ -4,7 +4,7 @@
 }
 
 .video__container {
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -16,25 +16,52 @@
   /* width: 50%; */
 }
 .bio__container {
-  width: 40%;
+  width: 50%;
+}
+
+.bio__container__ul {
+  margin-top: 0;
+  width: 79%;
+}
+.bio__ul__li {
+  margin-bottom: 0.7rem;
 }
 
 .bio__p {
   color: #ffffff;
   justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  margin-top: -1rem;
 }
 .bio__p--large {
   font-weight: 500;
-  font-size: 1.3rem;
-  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 31px;
 }
 .bio__p--small {
   font-weight: 600;
   font-size: 1rem;
   line-height: 36px;
 }
+.bio__p__last {
+  line-height: 20px;
+  padding-top: 0.7rem;
+}
 .bio__h2 {
   color: #ffffff;
+  margin-bottom: 0;
+  font-size: 2.4rem;
+}
+.bio__link {
+  margin: 0;
+  text-decoration: none;
+}
+
+.bio__link__ul {
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 .video__iframe {
   pointer-events: none;
