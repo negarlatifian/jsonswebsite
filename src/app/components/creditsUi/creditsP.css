@@ -1,0 +1,12 @@
+.creditsP__container {
+  width: 60%;
+}
+.creditsP__container p {
+  color: #ffffff;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 31px;
+}
