@@ -71,3 +71,23 @@
 .video__iframe {
   /* pointer-events: none; */
 }
+
+@media only screen and (max-width: 480px) {
+  .body__container {
+    flex-direction: column-reverse;
+  }
+  .bio__container {
+    width: 100%;
+  }
+  .bio__container__ul {
+    padding: 0;
+    width: 100%;
+  }
+  .bio__p--large {
+    font-size: 1.18rem;
+    line-height: 22px;
+  }
+  .bio__container__li--1st {
+    margin-bottom: 20rem;
+  }
+}

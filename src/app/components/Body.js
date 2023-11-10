@@ -34,7 +34,7 @@ const Body = () => {
       </div>
       <div className='bio__container'>
         <ul className='bio__container__ul'>
-          <li>
+          <li className='bio__container__li--1st'>
             <p className='bio__p bio__p--large'>
               I am an artist with a curatorial practice.
               <br />

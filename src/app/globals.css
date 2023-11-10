@@ -34,7 +34,14 @@ body {
   color: #ff0099;
 }
 @media only screen and (max-width: 480px) {
+  .header {
+    position: fixed;
+    margin-top: 30rem;
+  }
   .header__mailImg {
     display: none;
+  }
+  .header__h1 {
+    font-size: 1.8rem;
   }
 }
