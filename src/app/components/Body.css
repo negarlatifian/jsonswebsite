@@ -76,8 +76,14 @@
 .bio__mail--mobile {
   display: none;
 }
+.maildiv {
+  display: none;
+}
 
 @media only screen and (max-width: 480px) {
+  .maildiv {
+    display: block;
+  }
   .body__container {
     flex-direction: column-reverse;
   }
@@ -125,8 +131,6 @@
   }
   .bio__container__li--last {
     margin-bottom: 7rem;
-    /* background-color: #ff0099; */
-    border: solid 1px #ff0099;
   }
 
   .bio__link__ul li:first-child {

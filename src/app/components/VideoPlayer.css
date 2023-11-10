@@ -1,5 +1,5 @@
 .video__iframe {
-  pointer-events: none;
+  /* pointer-events: none; */
   height: 60vh;
   width: 43vw;
 }
