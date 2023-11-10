@@ -18,7 +18,7 @@ const urban = localFont({
       style: 'normal',
     },
     {
-      path: '/fonts/UrbanGroteskTRIAL-SemiBold.woff2',
+      path: '/fonts/UrbanGroteskTRIAL-Semibold.woff2',
       weight: '600',
       style: 'normal',
     },
