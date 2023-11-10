@@ -58,3 +58,42 @@ p {
   line-height: normal;
   padding-left: 0.8rem;
 }
+
+.creditsP__and {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .creditsP__container {
+    width: 100%;
+    margin-bottom: 20rem;
+  }
+  .creditsP__and {
+    display: block;
+  }
+  .creditsP__and__h1 {
+    color: #ffffff;
+    font-style: heavy;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-top: -1rem;
+  }
+  .creditsP__top__p {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+
+  .creditsP__h1 {
+    width: 60;
+  }
+  .creditsP__p,
+  .bulletPoint__p {
+    font-size: 1.2rem;
+  }
+  .bulletPoint__p {
+    padding-left: 0.6rem;
+  }
+  .creditsP__h1 h1 {
+    font-size: 1.8rem;
+  }
+}

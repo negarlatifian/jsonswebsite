@@ -17,10 +17,24 @@
   text-decoration: none;
   color: #ffffff;
 }
-.header__h1__link:hover {
+/* .header__h1__link:hover {
   color: #ff0099;
-}
+} */
 
 .header__backImg {
   width: 4rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .header__h1div {
+    display: none;
+  }
+  .header {
+    width: 77%;
+    justify-content: flex-end;
+    margin-top: -2rem;
+  }
+  .header__backImg {
+    width: 2rem;
+  }
 }

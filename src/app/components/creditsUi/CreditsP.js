@@ -5,6 +5,9 @@ const CreditsP = () => {
   return (
     <section className='creditsP__container'>
       <div className={`${urban.className}`}>
+        <div className={`${oldSchool.className} creditsP__and`}>
+          <h1 className='creditsP__and__h1'>&</h1>
+        </div>
         <p className='creditsP__top__p'>
           Most of my artworks have been exhibited as individual works or as
           several works together. I can’t subscribe to these being described as
