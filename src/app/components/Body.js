@@ -6,6 +6,7 @@ import { useState } from 'react';
 import './Body.css';
 import { urban } from '@/fonts';
 import { oldSchool } from '@/fonts';
+import Mail from './Mail';
 
 const Video = dynamic(() => import('./VideoPlayer.js'));
 const Body = () => {
@@ -45,8 +46,22 @@ const Body = () => {
               by the constituents that I work with. These are then further
               conditioned by artisanship.
             </p>
+            <Mail className='bio__mail--mobile' />
           </li>
-          <li className='bio__ul__li'>
+          <li className='bio__container__li bio__container__li__video'>
+            <Video />
+            <div className='video__caption'>
+              <p>
+                Untitled (Performance for Cyber Broadcast).
+                <br /> Commissioned by Franklin Furnace,
+                <br /> New York City, USA. 1998.
+                <br />
+                <br />
+                Video: Courtesy of Frankin Furnace.
+              </p>
+            </div>
+          </li>
+          <li className='bio__ul__li bio__container__li--last'>
             <Link
               href='https://www.corahillebrand.se/'
               className={`bio__link ${hovered && 'bio__link--hovered'}`}
