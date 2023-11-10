@@ -18,11 +18,7 @@ const Header = () => {
   return (
     <header className={`${oldSchool.className} header`}>
       <div className='header__h1div'>
-        <h1 className='header__h1'>
-          <Link href='/credits' className='header__h1__link'>
-            &
-          </Link>
-        </h1>
+        <h1 className='header__h1'>&</h1>
       </div>
       <div
         onMouseOver={handleHoverIn}
