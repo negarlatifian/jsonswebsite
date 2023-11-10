@@ -13,7 +13,11 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: normal;
-  /* width: 50%; */
+  margin-top: 1rem;
+}
+
+.video__caption p {
+  font-size: 1rem;
 }
 .bio__container {
   width: 50%;
