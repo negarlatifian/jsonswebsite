@@ -3,7 +3,7 @@ import './globals.css';
 import { urban } from '@/fonts';
 
 export const metadata = {
-  title: 'JSON E. BOWMAN',
+  title: 'Jason E. Bowman',
   description: "Json E. Bowman's website",
 };
 
