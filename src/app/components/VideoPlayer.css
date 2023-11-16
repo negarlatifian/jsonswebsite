@@ -1,5 +1,20 @@
 .video__iframe {
   /* pointer-events: none; */
-  height: 60vh;
+  height: 33vw;
   width: 43vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .video__iframe {
+    /* height: 15vw;
+    width: 40vw; */
+    /* width: 26rem;
+    height: 19.5rem; */
+  }
+}
+@media only screen and (max-width: 480px) {
+  .video__iframe {
+    width: 90vw;
+    height: 69vw;
+  }
 }

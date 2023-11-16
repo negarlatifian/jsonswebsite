@@ -15,7 +15,8 @@ body {
   color: #ffffff;
   font-style: heavy;
   font-weight: 900;
-  font-size: 4.4rem;
+  /* font-size: 4.4rem; */
+  font-size: 5.07vw;
   margin: 0rem 0rem 1.5rem;
 }
 
@@ -28,11 +29,17 @@ body {
 }
 
 .header__mailImg {
-  width: 4rem;
+  /* width: 4rem; */
+  width: 4.6vw;
+  height: auto;
 }
 .header__mailImg:hover {
   color: #ff0099;
 }
+.ytp-right-controls {
+  display: none;
+}
+
 @media only screen and (max-width: 480px) {
   .header {
     position: fixed;
