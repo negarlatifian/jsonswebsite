@@ -63,6 +63,21 @@ p {
   display: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .creditsP__container {
+    width: 100%;
+  }
+  .creditsP__h1 h1 {
+    font-size: 2.5rem;
+  }
+  .bulletPoint__p p {
+    font-size: 1.3rem;
+  }
+  .creditsP__li.cora {
+    padding-bottom: 1rem;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .creditsP__container {
     width: 100%;
