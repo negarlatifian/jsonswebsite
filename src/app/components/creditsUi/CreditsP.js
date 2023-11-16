@@ -25,7 +25,7 @@ const CreditsP = () => {
           people, art historians, charities and NGOs, creative producers, public
           programmers, curators and commissioners, custodians of insignia,
           archivists, activists, campaigners, school children, technicians,
-          writers and artists, and friends.
+          writers, and friends.
         </p>
       </div>
       <div className={`${oldSchool.className} creditsP__h1`}>
