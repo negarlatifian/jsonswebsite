@@ -42,6 +42,16 @@ const CreditsP = () => {
             </li>
           </ul>
         </li>
+        <li className='creditsP__li'>
+          <p className='creditsP__p'>Daniel Jewesbury</p>
+          <ul className='bulletPoint__ul'>
+            <li className='bulletPoint__li'>
+              <p className='bulletPoint__p'>
+                Assembling of Untitled (One Man Band) 2023
+              </p>
+            </li>
+          </ul>
+        </li>
         <li className='creditsP__li cora'>
           <p className='creditsP__p'>Cora Hillerbrand</p>
           <ul className='bulletPoint__ul'>
@@ -58,7 +68,7 @@ const CreditsP = () => {
           <ul className='bulletPoint__ul'>
             <li className='bulletPoint__li'>
               <p className='bulletPoint__p'>
-                3-D mModelling for Untitled (His and His) 2023
+                3-D modelling for Untitled (His and His) 2023
               </p>
             </li>
           </ul>
@@ -68,12 +78,12 @@ const CreditsP = () => {
           <ul className='bulletPoint__ul'>
             <li className='bulletPoint__li'>
               <p className='bulletPoint__p'>
-                Typography for Untitled Tee Shirts (YOU ARE ALL COMPLETE…) 1998-
+                Typography for Untitled (YOU ARE ALL COMPLETE…) 1998-
               </p>
             </li>
             <li className='bulletPoint__li'>
               <p className='bulletPoint__p'>
-                Typography for Untitled (Key Fob) 1996-
+                Typography for Untitled (Keyring) 1996-
               </p>
             </li>
             <li className='bulletPoint__li'>
@@ -88,7 +98,7 @@ const CreditsP = () => {
           <ul className='bulletPoint__ul'>
             <li className='bulletPoint__li'>
               <p className='bulletPoint__p'>
-                Video recording of Untitled (All Apologies) 2023
+                Video recording of Untitled (All Apologies) 1994-
               </p>
             </li>
           </ul>
