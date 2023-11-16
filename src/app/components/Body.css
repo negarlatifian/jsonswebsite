@@ -4,10 +4,13 @@
 }
 
 .video__container {
-  width: 50%;
+  flex: 1;
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
+
 .video__caption {
   color: #ffffff;
   font-weight: 400;
@@ -20,12 +23,21 @@
   font-size: 1rem;
 }
 .bio__container {
-  width: 50%;
+  /* width: 50%; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bio__exhibition {
+  padding-left: 3vw;
 }
 
 .bio__container__ul {
-  margin-top: 0;
+  /* margin-top: 0; */
   width: 79%;
+  padding-left: 3vw;
 }
 .bio__ul__li {
   margin-bottom: 0.7rem;

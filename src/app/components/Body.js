@@ -61,44 +61,44 @@ const Body = () => {
               </p>
             </div>
           </li>
-          <li className='bio__ul__li bio__container__li--last'>
-            <Link
-              href='https://www.corahillebrand.se/'
-              className={`bio__link ${hovered && 'bio__link--hovered'}`}
-              onMouseOver={handleHoverIn}
-              onMouseLeave={handleHoverOut}
-            >
-              <ul className='bio__link__ul'>
-                <li className='bio__ul__li'>
-                  <h2 className={`${oldSchool.className} bio__h2`}>
-                    TALK TO THE HAND
-                  </h2>
-                  <p className='bio__p bio__p--small'>
-                    17 November — 9 December 2023
-                  </p>
-                </li>
-                <li className='bio__ul__li'>
-                  <p className='bio__p bio__p--small'>
-                    Vernissage 17 November 17.00–20.00
-                  </p>
-                  <p className='bio__p bio__p--small'>Live performance 18.00</p>
-                </li>
-                <li className='bio__ul__li'>
-                  <p className='bio__p bio__p--small'>
-                    Galleri Cora Hillerbrand
-                  </p>
-                  <p className='bio__p bio__p--small'>Gothenburg, Sweden</p>
-                </li>
-                <li className='bio__ul__li'>
-                  <p className='bio__p bio__p--small bio__p__last'>
-                    An exhibition of prototypes for new thoughts and for
-                    previous thoughts being re-thought.
-                  </p>
-                </li>
-              </ul>
-            </Link>
-          </li>
+          {/* <li className='bio__ul__li bio__container__li--last'> */}
+          {/* </li> */}
         </ul>
+        <div className='bio__exhibition'>
+          <Link
+            href='https://www.corahillebrand.se/'
+            className={`bio__link ${hovered && 'bio__link--hovered'}`}
+            onMouseOver={handleHoverIn}
+            onMouseLeave={handleHoverOut}
+          >
+            <ul className='bio__link__ul'>
+              <li className='bio__ul__li'>
+                <h2 className={`${oldSchool.className} bio__h2`}>
+                  TALK TO THE HAND
+                </h2>
+                <p className='bio__p bio__p--small'>
+                  17 November — 9 December 2023
+                </p>
+              </li>
+              <li className='bio__ul__li'>
+                <p className='bio__p bio__p--small'>
+                  Vernissage 17 November 17.00–20.00
+                </p>
+                <p className='bio__p bio__p--small'>Live performance 18.00</p>
+              </li>
+              <li className='bio__ul__li'>
+                <p className='bio__p bio__p--small'>Galleri Cora Hillerbrand</p>
+                <p className='bio__p bio__p--small'>Gothenburg, Sweden</p>
+              </li>
+              <li className='bio__ul__li'>
+                <p className='bio__p bio__p--small bio__p__last'>
+                  An exhibition of prototypes for new thoughts and for previous
+                  thoughts being re-thought.
+                </p>
+              </li>
+            </ul>
+          </Link>
+        </div>
       </div>
     </section>
   );
