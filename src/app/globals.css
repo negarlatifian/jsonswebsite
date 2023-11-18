@@ -4,6 +4,11 @@ body {
   padding: 0;
 }
 
+.header__conttainer {
+  display: flex;
+  flex-direction: row;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -27,6 +32,9 @@ body {
 .header__h1__link:hover {
   color: #ff0099;
 }
+/* .header__h1__link:hover .pink {
+  color: #ff0099;
+} */
 
 .header__mailImg {
   /* width: 4rem; */

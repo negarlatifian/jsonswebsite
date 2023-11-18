@@ -53,7 +53,7 @@ const CreditsP = () => {
           </ul>
         </li>
         <li className='creditsP__li cora'>
-          <p className='creditsP__p'>Cora Hillerbrand</p>
+          <p className='creditsP__p'>Cora Hillebrand</p>
           <ul className='bulletPoint__ul'>
             <li>
               <p className='bulletPoint__p'>

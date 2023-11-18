@@ -17,6 +17,13 @@ const Header = () => {
   return (
     <header className={`${oldSchool.className} header`}>
       <div className='header__h1div'>
+        {/* <Link href='/credits' className='header__h1__link'>
+          <div className='header__conttainer'>
+            <h1 className='header__h1'>J</h1>
+            <h1 className='header__h1 pink'>&</h1>
+            <h1 className='header__h1'>SON E. BOWMAN</h1>
+          </div>
+        </Link> */}
         <h1 className='header__h1'>
           J
           <Link href='/credits' className='header__h1__link'>

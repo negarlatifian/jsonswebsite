@@ -87,7 +87,7 @@ const Body = () => {
                 <p className='bio__p bio__p--small'>Live performance 18.00</p>
               </li>
               <li className='bio__ul__li'>
-                <p className='bio__p bio__p--small'>Galleri Cora Hillerbrand</p>
+                <p className='bio__p bio__p--small'>Galleri Cora Hillebrand</p>
                 <p className='bio__p bio__p--small'>Gothenburg, Sweden</p>
               </li>
               <li className='bio__ul__li'>
