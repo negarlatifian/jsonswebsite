@@ -1,11 +1,11 @@
 import './creditsP.css';
-import { urban, oldSchool } from '@/fonts';
+import { urban, oldSchool, inter } from '@/fonts';
 
 const CreditsP = () => {
   return (
     <section className='creditsP__container'>
       <div className={`${urban.className}`}>
-        <div className={`${oldSchool.className} creditsP__and`}>
+        <div className={`${inter.className} creditsP__and`}>
           <h1 className='creditsP__and__h1'>&</h1>
         </div>
         <p className='creditsP__top__p'>
@@ -28,7 +28,7 @@ const CreditsP = () => {
           writers, and friends.
         </p>
       </div>
-      <div className={`${oldSchool.className} creditsP__h1`}>
+      <div className={`${inter.className} creditsP__h1`}>
         <h1>& TALK TO THE HAND</h1>
       </div>
       <ul className={`${urban.className} creditsP__ul`}>

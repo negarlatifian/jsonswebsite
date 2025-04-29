@@ -1,7 +1,7 @@
 'use-client';
 import Image from 'next/image';
 import { useState } from 'react';
-import { oldSchool } from '@/fonts';
+import { oldSchool, inter } from '@/fonts';
 import Link from 'next/link';
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
     setHovered(false);
   };
   return (
-    <header className={`${oldSchool.className} header`}>
+    <header className={`${inter.className} header`}>
       <div className='header__h1div'>
         {/* <Link href='/credits' className='header__h1__link'>
           <div className='header__conttainer'>

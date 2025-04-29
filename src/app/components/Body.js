@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import './Body.css';
 import { urban } from '@/fonts';
-import { oldSchool } from '@/fonts';
+import { oldSchool, inter } from '@/fonts';
 import Mail from './Mail';
 
 const Video = dynamic(() => import('./VideoPlayer.js'));
@@ -73,7 +73,7 @@ const Body = () => {
           >
             <ul className='bio__link__ul'>
               <li className='bio__ul__li'>
-                <h2 className={`${oldSchool.className} bio__h2`}>
+                <h2 className={`${inter.className} bio__h2`}>
                   TALK TO THE HAND
                 </h2>
                 <p className='bio__p bio__p--small'>

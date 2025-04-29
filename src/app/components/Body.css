@@ -44,6 +44,7 @@
 }
 .bio__ul__li {
   margin-bottom: 0.7rem;
+  width: 75%;
 }
 
 .bio__p {
@@ -75,7 +76,7 @@
 }
 .bio__h2 {
   color: #ffffff;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   /* font-size: 2.4rem; */
   font-size: 2.77vw;
 }

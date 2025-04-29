@@ -29,4 +29,9 @@ const oldSchool = localFont({
   src: '/fonts/OldschoolGroteskVarTrial.ttf',
 });
 
-export { oldSchool, urban };
+const inter = localFont({
+  // src: '/fonts/Inter-VariableFont.ttf',
+  src: '/fonts/Inter-VariableFont.ttf',
+});
+
+export { oldSchool, urban, inter };
