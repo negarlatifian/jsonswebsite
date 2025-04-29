@@ -53,9 +53,8 @@ const Body = () => {
             <div className='video__caption'>
               <p>
                 Untitled (Performance for Cyber Broadcast).
-                <br /> Commissioned by Franklin Furnace,
-                <br /> New York City, USA. 1998.
-                <br />
+                <br /> Commissioned by Franklin Furnace, New York City, USA.
+                1998.
                 <br />
                 Video: Courtesy of Frankin Furnace.
               </p>
@@ -80,12 +79,12 @@ const Body = () => {
                   17 November — 9 December 2023
                 </p>
               </li>
-              <li className='bio__ul__li'>
+              {/* <li className='bio__ul__li'>
                 <p className='bio__p bio__p--small'>
                   Vernissage 17 November 17.00–20.00
                 </p>
                 <p className='bio__p bio__p--small'>Live performance 18.00</p>
-              </li>
+              </li> */}
               <li className='bio__ul__li'>
                 <p className='bio__p bio__p--small'>Galleri Cora Hillebrand</p>
                 <p className='bio__p bio__p--small'>Gothenburg, Sweden</p>

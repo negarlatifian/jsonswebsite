@@ -23,13 +23,14 @@
   /* font-size: 1rem; */
   font-size: 1.2vw;
   line-height: 1.6vw;
+  /* width: ; */
 }
 .bio__container {
   /* width: 50%; */
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .bio__exhibition {
@@ -39,12 +40,12 @@
 
 .bio__container__ul {
   /* margin-top: 0; */
-  width: 79%;
+  width: 83%;
   padding-left: 3vw;
 }
 .bio__ul__li {
   margin-bottom: 0.7rem;
-  width: 75%;
+  width: 80%;
 }
 
 .bio__p {
@@ -59,7 +60,7 @@
   /* font-size: 1.5rem; */
   /* line-height: 31px; */
   font-size: 1.73vw;
-  line-height: 2.25vw;
+  line-height: 2.1vw;
   /* font-size: 3.3vh;
   line-height: 4.25vh; */
 }
