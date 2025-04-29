@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import { oldSchool } from '@/fonts';
+import { oldSchool, inter } from '@/fonts';
 import './headerCredits.css';
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
     setHovered(false);
   };
   return (
-    <header className={`${oldSchool.className} header`}>
+    <header className={`${inter.className} header`}>
       <div className='header__h1div'>
         <h1 className='header__h1'>&</h1>
       </div>
